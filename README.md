@@ -1,0 +1,4 @@
+- 👋 Hi, I’m Mikyle!
+- 👀 I’m interested in football, reading, watching movies, cooking and of course coding! 
+- 🌱 I’m currently learning how to become a full stack developer and a forex trader. 
+- 📫 How to reach me: reyesmikyle17@gmail.com
