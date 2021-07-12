@@ -1,0 +1,29 @@
+/* Big tablet to 1200px (witdth small than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    body {        
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    description {
+        margin-left: 1%;
+    }
+
+
+    
+}
+
+/* Small tablet to big tablet: from 768px to 1021px */
+@media only screen and (max-width: 1023px) {
+    
+}
+
+/* Small phones to small tablets: 481px to 767px */
+@media only screen and (max-width: 767px) {
+    
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}

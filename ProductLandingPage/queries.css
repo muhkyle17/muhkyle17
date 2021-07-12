@@ -1,0 +1,76 @@
+/* Big tablet to 1200px (width small than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+    
+}
+
+/* Small tablet to big tablet: from 768px to 1021px */
+@media only screen and (max-width: 1023px) {
+    .kits-section {
+        /* margin: 0px 97vw; */
+    }
+
+    p {
+        margin-bottom: 50px;
+    }
+
+    .flavors-section {
+        margin: 0px 90px;
+    }
+
+    footer .flex-container {
+        margin: 20px 90px;
+    }
+
+    .divider {
+        margin: 15px 90px; 
+    }
+
+    .copyright {
+        margin: 15px 90px;
+    }
+
+}
+
+/* Small phones to small tablets: 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+    .kits {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flavor-kits {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+    .kits {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flavor-kits {
+        justify-content: center;
+        align-items:center;
+    }
+
+    .flavors-button h3
+    .flavors-button a {
+        font-size: 70%;
+    }
+
+    footer .flex-container,
+    .divider {
+        display: none;
+    }
+
+    .copyright {
+        margin-top: -90px;
+    }
+}

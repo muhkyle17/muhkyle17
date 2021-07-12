@@ -1,0 +1,322 @@
+/* -------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+body {
+    background-color: #fff;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibilty: hidden;
+}
+
+/* ---------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 35px;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* Headings and Paragraphs */
+
+p {
+    padding: 3px 0px;
+    margin-bottom: 50px;
+    font-size: 80%;
+}
+
+h3,
+h4 {
+    font-weight: normal;
+}
+
+/* ---------------------------------------------- */
+/* LANDING PAGE */
+/* ---------------------------------------------- */
+
+/* HEADER  */
+
+#header {
+    max-width: 1200px;
+}
+
+.nav {
+    background-color: black;
+    height: 55px;
+    margin-top: 0px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+}
+
+.nav-img {
+    height: 45px;
+    width: auto;
+    float: left;
+    position: absolute; 
+    left: 20px;
+    margin-top: -6px; 
+}
+
+#nav-bar {
+    list-style: none;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+#nav-bar li {
+    margin: 0.5vh 20px 0px 0px;
+}
+
+#nav-bar li a:link,
+#nav-bar li a:visited {
+    color: #808080;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 70%;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    transition: border-bottom 0.2s, border-top 0.2s;
+}
+
+#nav-bar li a:hover, 
+#nav-bar li a:active {
+    color: #ffc107;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-bottom: 2px solid #ffc107;
+    border-top: 2px solid #ffc107;
+}
+
+#hero {
+    background-image: url(./images/hero-brewlab.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    height: 100vh;
+    background-attachment: fixed;
+    margin-top: 55px;
+}
+
+/* Kits Section */
+
+.kits-section {
+    /* margin: 0 6vw; */
+    /* border: 2px solid yellowgreen; */
+    /* height: 105vh; */
+}
+
+.kits-button {
+    padding: 1vh 0 0 0;
+    margin-bottom: 2vh;
+    display: block;
+}
+
+.btn-pill {
+    margin-left: 1%;
+    display: inline-block;
+    border: none;
+    background-color: #ffc107;
+    text-decoration: none;
+    margin-top: -8px;
+    padding: 10px 13px;
+    color: #000;
+    font-size: 17px;
+    border-radius: 50em;
+    box-shadow: 5px 3px 13px #888888;
+    /* opacity: 0.79; */
+    transition: background-color 0.5s;
+}
+
+.btn-pill:hover,
+.btn-pill:active {
+    background-color: #d4a107;
+    /* opacity: 1.0; */
+}
+
+.kits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* SIZES APPLICABLE TO FIREFOX ONLY */
+ /* .kits-img {
+    height: 80%;
+    max-width: 100%;
+} */
+
+.kits-img {
+    /* height: 18rem; */
+    height: 320px;
+    /* max-width: 100%; */
+    width: 360px;
+    margin: 0px auto 10px auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+/* Banners */
+
+.banner-section {
+    margin-top: -75px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-bundles {
+    width: 81vw;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.img-infographic {
+    width: 90vw; 
+    height: auto;
+    margin: 50px auto 0 auto;
+    border-radius: 10px;
+}
+
+/* Flavors */
+
+.flavors-button {
+    padding: 1vh 0 0 0;
+    margin-bottom: 2vh;
+
+
+}
+
+.flavor-kits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* SIZES APPLICABLE TO FIREFOX ONLY */
+/* .flavors-img {
+    height: 80%;
+    max-width: 100%;
+    padding-right: 30px;
+} */
+
+.flavors-img {
+    /* height: 12rem; */
+    /* max-width: 100%; */
+    height: 200px;
+    width: 260px;
+    /* padding-right: 50px; */
+    border-radius: 5px;
+    margin: 0px auto 10px auto;
+}
+
+.flavors-section {
+    margin-top: -75px;
+}
+
+/* SIZES APPLICABLE TO FIREFOX ONLY */
+/* .ingredients-img {
+    height: 80%;
+    max-width: 100%;
+} */
+
+/* Footer */
+footer {
+    margin: 20px 0px 0px 24px;
+    /* padding: 50px; */
+    font-size: 80%;
+    /* border: 2px solid blue;  */
+    padding-bottom: 30px;
+}
+
+footer .flex-container {
+    display: flex;
+    padding: 0px 0px 10px 0px;
+    /* border: 2px solid blue; */
+}
+
+footer .flex-child {
+    margin-right: 10vw;
+}
+
+footer li {
+    list-style: none;
+    font-size: 90%;
+    padding-bottom: 7px;
+}
+
+footer h5 {
+    font-size: 110%;
+    padding-bottom: 13px;
+}
+
+.flex-child a:link,
+.flex-child a:visited {
+    color: #808080;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+}
+
+.flex-child a:hover,
+.flex-child a:active {
+    color: rgb(59, 59, 59);
+    border-bottom: 1px solid black;
+}
+
+.copyright {
+    color: #808080;
+    margin: 5px 0px;
+    /* padding: 0px 24px; */
+}
+
+.divider {
+    max-width: 1140px;
+    margin: 25px auto 30px auto;
+    /* color: #e5e5e548; */
+    border: 1px solid #e5e5e5ce;
+}

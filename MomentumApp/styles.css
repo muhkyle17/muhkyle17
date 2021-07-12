@@ -1,0 +1,90 @@
+/* ---------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------- */
+html
+body {
+    background-color: #cccbce;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background-image: url("images/snowy-mountains.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 99vh;
+    width: 95vw;
+}
+
+h1 {
+    font-size: 7rem; /* 96px */
+    
+    /* border: 2px solid greenyellow; */
+}
+
+h2 {
+    font-size: 3rem; /* 48px */
+    margin-top: -70px;
+
+    /* border: 2px solid yellowgreen; */
+}
+
+h3{ 
+    font-size: 1.5rem;
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+
+    /* border: 2px solid yellowgreen; */
+}
+
+.hero-text-box {
+    margin: 7rem 1rem 0 1rem;
+    width: 100%;
+    text-align: center;
+
+    /* border: 2px solid yellowgreen; */
+}
+
+footer p {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    /* border: 2px solid yellowgreen; */
+}
+
+
+#focus {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    /* background-color: transparent; */
+    border-bottom: 2px solid #fff;
+    display: block;
+    margin: 0 30rem 0 30rem;
+    padding-bottom: 0.3rem;
+}
+
+#focus:focus,#focus:hover {
+    background-color: transparent;
+    /* border-top: transparent;
+    border-right: transparent;
+    border-left: transparent; */
+    border-bottom: 2px solid #fff;
+    outline: none;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Survey Form">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="grid.css">
+        <link rel="stylesheet" type="text/css" href="queries.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap">
+        <title>Let's Be Partners!</title>
+
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="description">
+                <h1 id="title">Let's partner up!</h1>
+                <p id="contact-FAQ">For more info, please visit our FAQ's page or leave us a message!</p>
+                <p id="contact-email">Email us at coolbusiness@business.ph</p>
+                <img src="img/contact_banner.svg" alt="Contact Us">
+            </div>
+            <div class="forms">
+                <form class="forms-container" action="" method="get">
+                    <p class="flex-item_1">First Name<br />
+                        <input type="text" name="first name" size="20" maxlength="20" required>
+                    </p>
+                    <p class="flex-item_2">Last Name<br/>
+                        <input type="text" name="last name" size="20" maxlength="20" required>
+                    </p>
+                    <p class="flex-item_8">Company Name<br/>
+                        <input type="text" name="last name" size="20" maxlength="20" required>
+                    </p>
+                    <p class="flex-item_3">Email Address<br/>
+                        <input type="email" name="email" size="40" required>
+                    </p>
+                    <p class="flex-item_4">Phone Number<br/>
+                        <input type="text" name="phone number" size="40" maxlength="16" required>
+                    </p>
+                    <p class="flex-item_5">Message<br/>
+                        <input type="text" name="message" size="50" maxlength="150" required>
+                    </p>
+                    <p class="flex-item_6"> I am a... <br/>
+                        <input type="radio" name="partner type" value="Customer"> Customer
+                        <input type="radio" name="partner type" value="business owner"> Business Owner
+                        <input type="radio" name="partner type" value="rider"> Rider
+                    </p>
+                    <input class="flex-item_7" type="submit" value="Send" id="submit">
+                </form>
+            </div>
+        </div>
+    </body>

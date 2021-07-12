@@ -1,0 +1,149 @@
+/* ---------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+body {
+    background-color: #ffc107;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibilty: hidden;
+}
+
+/* ---------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 40px 0px;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ---------------------------------------------- */
+/* DESCRIPTION */
+/* ---------------------------------------------- */
+.flex-container {
+    display: flex;
+    align-content: space-around;
+}
+
+.description {
+    margin: 50px 30px 0px 90px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.description #contact-FAQ {
+    margin-top: 80px;
+}
+
+.description #contact-email {
+    margin-top: 6px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.description img {
+    max-height: 200px;
+    width: auto;
+    /* margin-top: 300px; */
+
+    display: block;
+    margin: 260px 0px 0px 60px;
+}
+
+/* ---------------------------------------------- */
+/* FORMS */
+/* ---------------------------------------------- */
+
+.forms {
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0px 130px 0px 30px;
+    max-height: 700px;
+}
+
+.forms-container p {
+    padding-top: 40px;
+    position: relative;
+}
+
+input {
+    font-size: 15px;
+    background-color: #e6e6e6;
+    border: 2px solid #005745;
+    border-radius: 5px;
+    padding: 5px 3px 3px 10px;
+    margin-top: 6px;
+}
+
+input:focus, input:hover {
+    background-color: #ffffff;
+    border: 2px solid #005745;
+}
+
+.flex-item_2 {
+    position: absolute;
+    left: 240px;
+    bottom: 100px;
+}
+
+.flex-item_3,
+.flex-item_4,
+.flex-item_5,
+.flex-item_6,
+.flex-item_8 {
+    position: absolute;
+    bottom: 100px;
+}
+
+.flex-item_7 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #005745;
+    border-radius: 7px;
+
+    position: absolute;
+    bottom: 50px;
+
+    align-self: flex-start;
+}
+
+.flex-item_7:hover {
+    color: #ffffff;
+    padding: 10px 40px;
+    background-color: #0c7560;
+    border: 2px solid #0c7560;
+}

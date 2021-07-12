@@ -1,0 +1,85 @@
+/* ---------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+body {
+    background-color: #cccbce;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibilty: hidden;
+}
+
+/* ---------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 40px 0px;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ---------------------------------------------- */
+/* CHESS */
+/* ---------------------------------------------- */
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+.chessboard {
+    width: auto;
+    height: auto;
+    margin: 30px 50px 30px 50px;
+}
+
+.chessboard--row {
+    display: flex;
+    justify-content: center;
+}
+
+.black,
+.white { 
+    font-size: 50px;
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    color: #573a2e;
+    margin: -1px;
+    text-align: center;
+}
+
+.white {
+    background-color: #fccc74;
+}
+
+.black {
+    background-color: #fff;
+}
