@@ -12,7 +12,7 @@ https://muhkyle17.github.io/muhkyle17/FormsProject
 
 https://muhkyle17.github.io/muhkyle17/HTMLCSS-personal-project
 
-https://muhkyle17.github.io/muhkyle17/MomentumApp
+https://muhkyle17.github.io/muhkyle17/Banking-App
 
 https://muhkyle17.github.io/muhkyle17/ProductLandingPage
 
