@@ -4,7 +4,7 @@
 - 📫 How to reach me: reyesmikyle17@gmail.com
 - 🗂 Check out my projects that I've been working on. 
 
-https://muhkyle17.github.io/muhkyle17/CSSFlexbox
+<!-- https://muhkyle17.github.io/muhkyle17/CSSFlexbox
 
 https://muhkyle17.github.io/muhkyle17/CSSGrid
 
@@ -16,4 +16,4 @@ https://muhkyle17.github.io/muhkyle17/Banking-App
 
 https://muhkyle17.github.io/muhkyle17/ProductLandingPage
 
-https://muhkyle17.github.io/muhkyle17/TributeProject
+https://muhkyle17.github.io/muhkyle17/TributeProject -->
