@@ -1,5 +1,5 @@
-- 👋  Hi, I’m Mikyle!
-- 👀  I’m interested in football, reading, watching movies, cooking and of course coding! 
-- 🌱  I’m currently learning how to become a full stack developer in Avion School and a part-time trader. 
-- 📫  You can reach me at reyesmikyle17@gmail.com! 
-- 🗂  Check out the projects that I've been working on.
+- 👋   Hi, I’m Mikyle!
+- 👀   I’m interested in football, reading, watching movies, cooking and of course coding! 
+- 🌱   I’m currently learning how to become a full stack developer in Avion School and a part-time trader. 
+- 📫   You can reach me at reyesmikyle17@gmail.com! 
+- 🗂   Check out the projects that I've been working on.
