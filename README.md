@@ -1,5 +1,5 @@
 - 👋   Hi, I’m Mikyle!
 - 👀   I’m interested in football, reading, watching movies, cooking and of course coding! 
-- 🌱   I’m currently a Frontend Developer and aspiring to become a Full-Stack Developer. 
+- 🌱   I’m a full stack developer currently working at Creator Co! 
 - 📫   You can reach me at reyesmikyle17@gmail.com! 
 - 🗂   Check out the projects that I've been working on.
