@@ -7,10 +7,10 @@ I'm a Software Engineer and Web Designer.
 I've been coding for over 4 years and I've been loving every minute of it. My coding journey began in university, inspired by my older sister. Since then, I‘ve embarked on an exciting journey of learning and creating, driven by my passion for design aesthetics and creative problem-solving. What began as a hobby quickly evolved into a passion for work and lifelong learning. Coding has become the perfect blend of designing, creating, and problem-solving for me. When I‘m not coding, I enjoy reading, working out, hiking, cooking, playing football, scuba diving, and going on outdoor adventures. Life is, and always will be, an adventure!
 
 * 🌍  I'm based in Vancouver, Canada
-* 🖥️  See my portfolio at [my website!](http://mikylereyes.com)
+* 🖥️  See my portfolio on my [website!](http://mikylereyes.com)
 * ✉️  You can contact me at [reyesmikyle17@gmail.com](mailto:reyesmikyle17@gmail.com)
 * 🚀  I'm currently working on [a wedding website for my sister!](http://www.nickandmika.com/home)
-* 🧠  I'm learning Python and Appwrite!
+* 🧠  I'm also currently learning Python and Appwrite!
 
 ### Skills
 
