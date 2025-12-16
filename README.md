@@ -9,8 +9,8 @@ I've been coding for over 4 years and I've been loving every minute of it. My co
 * 🌍  I'm based in Vancouver, Canada
 * 🖥️  See my portfolio on my [website!](http://mikylereyes.com)
 * ✉️  You can contact me at [reyesmikyle17@gmail.com](mailto:reyesmikyle17@gmail.com)
-* 🚀  I'm currently working on [a wedding website for my sister!](http://www.nickandmika.com/home)
-* 🧠  I'm also currently learning Python and Appwrite!
+* 🚀  I’m currently collaborating with a client to develop a speech-language pathology application that enables more efficient, accurate, and scalable creation of speech and hearing screenings. Learn more about her story here [https://www.northern-voices.com/](https://www.northern-voices.com/)
+* 🧠  I'm also currently learning Python and DevOps!
 
 ### Skills
 
